@@ -1,0 +1,17 @@
+{
+  "name": "chatty_server",
+  "version": "1.0.0",
+  "description": "Chatty App Web-sockets server",
+  "main": "index.js",
+  "scripts": {
+    "test": "test_chatty",
+    "start": "node server.js"
+  },
+  "author": "jCortina",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.16.2",
+    "uuid": "^3.1.0",
+    "ws": "3.2.0"
+  }
+}
